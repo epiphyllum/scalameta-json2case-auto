@@ -1,0 +1,19 @@
+{
+  "price":[
+    {"high":"double"},
+    {"low":"double"}
+  ],
+  "item":[
+    {"diameter":"int"},
+    {"weight":"int"},
+    {"price":"price"}
+  ],
+  "customer":[
+    {"name":"string"},
+    {"yearOfBirth":"int"},
+    {"item":"item"},
+    {"itemo":"option[item]"},
+    {"itemList":"seq[item]"},
+    {"imap":"map[Item]"}
+  ]
+}
